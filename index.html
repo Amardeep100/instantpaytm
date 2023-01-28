@@ -34,7 +34,7 @@
 <p id="demo">Offer available</p> 
 
 <script> 
-var deadline = new Date("Jan 26, 2023 15:37:25").getTime(); 
+var deadline = new Date("Feb 05, 2023 15:37:25").getTime(); 
 var x = setInterval(function() { 
 var now = new Date().getTime(); 
 var t = deadline - now; 
@@ -49,7 +49,7 @@ document.getElementById("demo").innerHTML = days + "d "
 
         clearInterval(x); 
 
-        document.getElementById("demo").innerHTML = "EXPIRED"; 
+        document.getElementById("demo").innerHTML = "OFFER EXPIRED"; 
 
     } 
 }, 1000); 
